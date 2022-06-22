@@ -11,7 +11,7 @@ lr_d: 0.0002
 
 num_epochs: 1000
 
-reduced_data: ./data/reduced_train_data_130.npy
-zid_dict: ./3dgan/zid_dictionary.pkl
-checkpoints_path: ./3dgan/checkpoints/
-result_path: ./3dgan/results/
+reduced_data: ../data/reduced_train_data_130.npy
+zid_dict: ../3dgan/zid_dictionary.pkl
+checkpoints_path: ../3dgan/checkpoints/
+result_path: ../3dgan/results/

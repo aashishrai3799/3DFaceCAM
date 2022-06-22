@@ -141,9 +141,9 @@ class shape_GAN():
         print('Training Finished')
 
 if __name__ == '__main__':
-    device = torch.device("cuda:7")
+    device = torch.device("cuda:0")
 
-    with open("3dgan/config.yml","r") as cfgfile:
+    with open("config.yml","r") as cfgfile:
         cfg = yaml.safe_load(cfgfile)
 
     gan = shape_GAN(cfg, device)
