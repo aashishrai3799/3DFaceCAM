@@ -67,7 +67,7 @@ class Test:
         return (self.decoder(z)+ self.template_verts).reshape(26317,3)
 
 
-    def generate_intensity(self, filename, low=0, high=1.5, num_steps=15, exp_list=range(0,20), save_obj=False, render=True):
+    def generate_intensity(self, filename, low=0, high=1.5, num_steps=15, exp_list=range(0,20), save_obj=True, render=False):
         for i in exp_list:
             subfolder = os.path.join(self.result_path, filename, str(i)+'_'+self.label_dict[i])
             z_exp = torch.nn.functional.one_hot(torch.tensor([i]), num_classes=20).to(self.device)
@@ -85,7 +85,7 @@ class Test:
                 renderfaces(torch.stack(meshes).float(), self.face_v, subfolder+'.png',self.device)
 
 
-    def generate(self, filename, intensities=False, low=0, high=1.5, num_steps=15, exp_list=range(0,20), save_obj=False, render=True):
+    def generate(self, filename, intensities=False, low=0, high=1.5, num_steps=15, exp_list=range(0,20), save_obj=True, render=False):
         if not os.path.exists(self.result_path):
             os.makedirs(self.result_path)
 
@@ -126,4 +126,4 @@ if __name__ == '__main__':
         test.load_models(path_d=path_d, path_gid=path_gid, path_gexp=path_gexp)
 
         for i in range(10):
-            test.generate(str(i), save_obj=True)
+            test.generate(str(i), save_obj=True, render=False)
