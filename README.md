@@ -14,11 +14,21 @@ Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Ch
 ## Installation 
 See [`install.md`](docs/install.md)
 
-## Quick Start 
+## Testing
 
-- Testing
+- Generate 3D Faces (mesh and texture)
     ```
     python generate_faces.py
+    ```
+    
+- Generate meshes only
+    ```
+    python test_gan3d.py
+    ```
+    
+- Generate texture only
+    ```
+    python test_texture.py
     ```
 
 ## Train your own model
