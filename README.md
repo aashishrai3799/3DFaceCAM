@@ -26,7 +26,7 @@ See [`install.md`](docs/install.md)
     python test_gan3d.py
     ```
     
-- Generate texture only
+- Generate textures only
     ```
     python test_texture.py
     ```
