@@ -1,7 +1,7 @@
 
 # Official implementation of Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance
 
-Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Chen, Farnando de la Torre, Steven Song, Aayush Prakash, Daeil Kim
+Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Chen, Fernando de la Torre, Steven Song, Aayush Prakash, Daeil Kim
 
 (* equal contribution)
 
