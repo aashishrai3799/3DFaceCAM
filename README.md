@@ -39,20 +39,21 @@ See [`install.md`](docs/install.md)
     
 
 ### Start training
-```
-# Shape
 
+- Shape
+```
 Train AE
 python train_ae.py 
-
+```
+```
 Train GAN
 python train_gan3d.py 
+```
 
-# Texture
-
+- Texture
+```
 Train P-GAN
 python train_texture.py --init_step 1 --batch_size 128
-
 ```
 
 
