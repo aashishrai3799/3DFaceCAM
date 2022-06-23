@@ -34,27 +34,27 @@ See [`install.md`](docs/install.md)
 ## Train your own model
 
 ### Preprocess data
-    
+
     python preprocess.py (Coming Soon)
     
 
 ### Start training
 
 - Shape
-```
-Train AE
-python train_ae.py 
-```
-```
-Train GAN
-python train_gan3d.py 
-```
+    ```
+    Train AE
+    python train_ae.py 
+    ```
+    ```
+    Train GAN
+    python train_gan3d.py 
+    ```
 
 - Texture
-```
-Train P-GAN
-python train_texture.py --init_step 1 --batch_size 128
-```
+    ```
+    Train P-GAN
+    python train_texture.py --init_step 1 --batch_size 128
+    ```
 
 
 
