@@ -105,7 +105,7 @@ class Test:
                 from renderer_pt3d import renderfaces
                 renderfaces(torch.stack(meshes).float(), self.face_v, subfolder+'image.png',self.device)
         else:
-            self.generate_intensity(low,high,num_steps,exp_list,save_obj)
+            self.generate_intensity(filename=filename,low=low,high=high,num_steps=num_steps,exp_list=exp_list,save_obj=save_obj)
 
 
 if __name__ == '__main__':
@@ -127,3 +127,7 @@ if __name__ == '__main__':
 
         for i in range(10):
             test.generate(str(i), save_obj=True, render=False)
+            
+            
+            
+            
