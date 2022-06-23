@@ -11,7 +11,7 @@ Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Ch
 [[Project Page]](https://aashishrai3799.github.io/3DFaceCAM) [[Video]](#) [[Colab Demo]](#) [[Demo Code]](#) [[Arxiv]](#) 
 
 
-## Installation 
+## Install packages 
 See [`install.md`](docs/install.md)
 
 ## Testing
