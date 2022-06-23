@@ -16,6 +16,8 @@ See [`install.md`](docs/install.md)
 
 ## Testing
 
+Download pre-trained weights and put the "checkpoints" folder in the main directory. [[Link]](https://drive.google.com/file/d/1hK31wVAoieRiVFydPxnx0MVpx6AnWN1-/view?usp=sharing)
+
 - Generate 3D Faces (mesh and texture)
     ```
     python generate_faces.py
