@@ -18,7 +18,7 @@ See [`install.md`](docs/install.md)
 
 - Testing
     ```
-    python test.py
+    python generate_faces.py
     ```
 
 ## Train your own model
@@ -32,20 +32,16 @@ See [`install.md`](docs/install.md)
 ```
 # Shape
 
-cd shape_model/
-
 Train AE
-python ae/train.py 
+python train_ae.py 
 
 Train GAN
-python 3dgan/train.py 
+python train_gan3d.py 
 
 # Texture
 
-cd texture_model/
-
 Train P-GAN
-python train.py --init_step 1 --batch_size 128
+python train_texture.py --init_step 1 --batch_size 128
 
 ```
 
