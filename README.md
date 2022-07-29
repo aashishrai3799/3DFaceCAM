@@ -65,6 +65,21 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
     python train_texture.py --init_step 1 --batch_size 128
     ```
 
+## License
 
+The code is available under MIT License. Please read the license available at https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE
+
+## Citation
+
+If you use find this paper/code useful, please consider citing:
+
+```
+@inproceedings{farib2022facemodel,
+  title={Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance},
+  author={Fariborz Teherkhani and Aashish Rai and Shaunak Srivastava and Quankai Gao and Xuanbai Chen and Fernando de la Torre and Steven Song and Aayush Prakash and Daeil Kim},
+  booktitle={in review},
+  year={2022}
+}
+```
 
 
