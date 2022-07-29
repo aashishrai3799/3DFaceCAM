@@ -37,7 +37,9 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
 
 ### Preprocess data
 
-    python preprocess.py (Coming Soon)
+    - Download Facescape dataset and specify path to the "facescape_trainset" folder.
+    
+    python preprocess_traindata.py
     
 
 ### Start training
@@ -47,6 +49,11 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
     Train AE
     python train_ae.py 
     ```
+    ```
+    Generate Reduced Data
+    python gen_reduced_data.py 
+    ```
+    
     ```
     Train GAN
     python train_gan3d.py 
