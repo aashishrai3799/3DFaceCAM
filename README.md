@@ -1,9 +1,9 @@
 
-# Official implementation of Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance
+# Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance
 
-Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Chen, Fernando de la Torre, Steven Song, Aayush Prakash, Daeil Kim
+Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Chen, Fernando de la Torre, Steven Song, Aayush Prakash, Daeil Kim (* equal contribution)
 
-(* equal contribution)
+This is the official Pytorch implementation of the afformentioned paper.
 
 ### More details coming soon!
 
@@ -67,7 +67,7 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
 
 ## License
 
-The code is available under MIT License. Please read the license available at https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE
+The code is available under MIT License. Please read the license terms available at [[Link]](https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE)
 
 ## Citation
 
