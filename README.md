@@ -3,7 +3,7 @@
 
 Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Chen, Fernando de la Torre, Steven Song, Aayush Prakash, Daeil Kim (* equal contribution)
 
-This is the official Pytorch implementation of the afformentioned paper.
+This is the official Pytorch implementation of the paper.
 
 ### More details coming soon!
 
