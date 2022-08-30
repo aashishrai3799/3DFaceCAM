@@ -11,9 +11,6 @@ This is the official Pytorch implementation of the paper.
 [[Project Page]](https://aashishrai3799.github.io/3DFaceCAM) [[Video]](https://drive.google.com/file/d/1PqIN4Rzp4vapWs2pUegUEoMhg4lM2Smy/view?usp=sharing) [[Colab Demo]](#) [[Arxiv]](#) 
 
 
-## Install packages 
-See [`install.md`](docs/install.md)
-
 ## Testing
 
 Download pre-trained weights and put the "checkpoints" folder in the main directory. [[Link]](https://drive.google.com/file/d/1hK31wVAoieRiVFydPxnx0MVpx6AnWN1-/view?usp=sharing)
@@ -77,7 +74,7 @@ If you use find this paper/code useful, please consider citing:
 @inproceedings{farib2022facemodel,
   title={Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance},
   author={Fariborz Teherkhani and Aashish Rai and Shaunak Srivastava and Quankai Gao and Xuanbai Chen and Fernando de la Torre and Steven Song and Aayush Prakash and Daeil Kim},
-  booktitle={in review},
+  booktitle={arxiv},
   year={2022}
 }
 ```
