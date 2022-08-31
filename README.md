@@ -74,11 +74,13 @@ The code is available under MIT License. Please read the license terms available
 If you use find this paper/code useful, please consider citing:
 
 ```
-@inproceedings{3dfacecam2022,
-  title={Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance},
-  author={Fariborz Teherkhani and Aashish Rai and Shaunak Srivastava and Quankai Gao and Xuanbai Chen and Fernando de la Torre and Steven Song and Aayush Prakash and Daeil Kim},
-  booktitle={arxiv},
-  year={2022}
+@misc{taherkhani2022controllable,
+      title={Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance}, 
+      author={Fariborz Taherkhani and Aashish Rai and Quankai Gao and Shaunak Srivastava and Xuanbai Chen and Fernando de la Torre and Steven Song and Aayush Prakash and Daeil Kim},
+      year={2022},
+      eprint={2208.14263},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
