@@ -65,7 +65,7 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
 
 ## License
 
-The code is available under X11 License. Please read the license terms available at [[Link]](https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE)
+The code is available under X11 License. Please read the license terms available at [[Link]](https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE). Quick summary available at [[Link]](https://www.tldrlegal.com/l/x11).
 
 ## Citation
 
