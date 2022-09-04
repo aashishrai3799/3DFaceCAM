@@ -10,6 +10,8 @@ This is the official Pytorch implementation of the paper.
 
 [[Project Page]](https://aashishrai3799.github.io/3DFaceCAM) [[Video]](https://drive.google.com/file/d/1PqIN4Rzp4vapWs2pUegUEoMhg4lM2Smy/view?usp=sharing) [[Colab Demo]](#) [[Arxiv]](https://arxiv.org/abs/2208.14263) 
 
+![](3dfacecam.gif)
+
 ![](arch.png)
 
 ## Testing
