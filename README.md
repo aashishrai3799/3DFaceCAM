@@ -16,7 +16,7 @@ This is the official Pytorch implementation of the paper.
 
 ## Testing
 
-Download pre-trained weights and put the "checkpoints" folder in the main directory. [[Link]](https://drive.google.com/file/d/1hK31wVAoieRiVFydPxnx0MVpx6AnWN1-/view?usp=sharing)
+Download pre-trained weights and put the "checkpoints" folder in the main directory. [[Link](https://drive.google.com/file/d/1hK31wVAoieRiVFydPxnx0MVpx6AnWN1-/view?usp=sharing)]
 
 - Generate 3D Faces (mesh and texture)
     ```
@@ -34,6 +34,10 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
     ```
 
 ## Train your own model
+
+### Dataset
+
+We primarily used the FaceScape dataset. It can be downloaded from [[Link](https://facescape.nju.edu.cn/Page_Download/)]. The dataset is restricted to be used for non-commercial research only. Learn more about Facescape License [[Link](https://facescape.nju.edu.cn/static/License_Agreement.pdf)].
 
 ### Preprocess data
 
@@ -67,7 +71,7 @@ Download pre-trained weights and put the "checkpoints" folder in the main direct
 
 ## License
 
-The code is available under X11 License. Please read the license terms available at [[Link]](https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE). Quick summary available at [[Link]](https://www.tldrlegal.com/l/x11).
+The code is available under X11 License. Please read the license terms available at [[Link](https://github.com/aashishrai3799/3DFaceCAM/blob/main/LICENSE)]. Quick summary available at [[Link](https://www.tldrlegal.com/l/x11)].
 
 ## Citation
 
