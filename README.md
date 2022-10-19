@@ -5,6 +5,8 @@ Fariborz Teherkhani, Aashish Rai*, Shaunak Srivastava*, Quankai Gao*, Xuanbai Ch
 
 ### Carnegie Mellon University, Facebook/Meta
 
+### WACV 2023
+
 This is the official Pytorch implementation of the paper.
 
 
@@ -15,6 +17,8 @@ This is the official Pytorch implementation of the paper.
 ![](arch.png)
 
 ## Testing
+
+Conda environment: Refer environment.yml
 
 Download pre-trained weights and put the "checkpoints" folder in the main directory. [[Link](https://drive.google.com/file/d/1hK31wVAoieRiVFydPxnx0MVpx6AnWN1-/view?usp=sharing)]
 
