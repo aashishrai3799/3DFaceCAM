@@ -82,11 +82,13 @@ The code is available under X11 License. Please read the license terms available
 If you use find this paper/code useful, please consider citing:
 
 ```
-@article{taherkhani2022controllable,
-  title={Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance},
-  author={Taherkhani, Fariborz and Rai, Aashish and Gao, Quankai and Srivastava, Shaunak and Chen, Xuanbai and de la Torre, Fernando and Song, Steven and Prakash, Aayush and Kim, Daeil},
-  journal={arXiv preprint arXiv:2208.14263},
-  year={2022}
+@InProceedings{Taherkhani_2023_WACV,
+    author    = {Taherkhani, Fariborz and Rai, Aashish and Gao, Quankai and Srivastava, Shaunak and Chen, Xuanbai and de la Torre, Fernando and Song, Steven and Prakash, Aayush and Kim, Daeil},
+    title     = {Controllable 3D Generative Adversarial Face Model via Disentangling Shape and Appearance},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {826-836}
 }
 ```
 
